@@ -29,7 +29,7 @@ public class SubtitleReference : MonoBehaviour
         //エンターキーを押すと
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            if(active == true)
+            if (active == true)
             {
                 active = false;
                 StartCoroutine("SubtitleMove");
@@ -46,14 +46,26 @@ public class SubtitleReference : MonoBehaviour
             //初期化
             Subtitle.text = "";
             //背景色変更
-            Panel.GetComponent<Image>().color = new Color(225f/255f,225f/255f,225f/255f,128f/255f);
+            Panel.GetComponent<Image>().color = new Color(225f / 255f, 225f / 255f, 225f / 255f, 128f / 255f);
             //現在表示している文字数
             int textcount = 0;
+            //一時的に置いておく用
+            string tmptext = "";
             while (text[i].Length > textcount)
             {
-                Subtitle.text += text[i][textcount];
+                if (textcount % 47 != 46)
+                {
+                    tmptext += text[i][textcount] ;
+                }
+                else
+                {
+                    tmptext += text[i][textcount] + "\n           ";
+
+                }
+                Subtitle.text = "itoka「" + tmptext + "」";
                 textcount++;
                 yield return new WaitForSeconds(secondtime);
+
             }
             i += 1;
         }
