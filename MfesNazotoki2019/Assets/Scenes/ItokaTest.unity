@@ -477,10 +477,12 @@ MonoBehaviour:
   Subtitle: {fileID: 945325067}
   Panel: {fileID: 1520571705}
   secondtime: 0.05
+  remark: 01000101010000000000
   text:
-  - "\u79C1\u306F\u795E\u3060"
-  - "\u79C1\u306Fnine\u306E\u72AC\u3067\u3059"
-  - "\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064.................................................................................\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A\u3064\u306A"
+  - 2a
+  - 1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  - "2\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  - aaa
 --- !u!1 &958622840
 GameObject:
   m_ObjectHideFlags: 0

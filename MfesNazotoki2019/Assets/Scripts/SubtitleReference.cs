@@ -11,6 +11,8 @@ public class SubtitleReference : MonoBehaviour
     public GameObject Panel;
     //表示フレーム
     public float secondtime;
+    //登場人物
+    public bool[] remark;
     //表示する文章
     public string[] text;
     //文章の順番カウント用
@@ -47,29 +49,54 @@ public class SubtitleReference : MonoBehaviour
             Subtitle.text = "";
             //背景色変更
             Panel.GetComponent<Image>().color = new Color(225f / 255f, 225f / 255f, 225f / 255f, 128f / 255f);
-            //現在表示している文字数
+            //現在表示している文字数+1
             int textcount = 0;
+            //文字のバイト数を確認する
+            float bytecount = 0;
             //一時的に置いておく用
             string tmptext = "";
             while (text[i].Length > textcount)
             {
-                if (textcount % 47 != 46)
+                tmptext += text[i][textcount] ;
+                Subtitle.text = "" + tmptext + "";
+                //textをchar型に変更してバイト数を判定→バイト数をbytecountに追加
+                char chartext = text[i][textcount];
+                if (IsChar2Byte(chartext))
                 {
-                    tmptext += text[i][textcount] ;
+                    //実際の全角と半角の比を考えて1ではなくて0.8バイトで計算
+                    bytecount+=0.8f;
                 }
-                else
+                bytecount++;
+                if(bytecount >= 80)
                 {
-                    tmptext += text[i][textcount] + "\n           ";
-
+                    tmptext += "\n";
+                    bytecount = 0;
                 }
-                Subtitle.text = "itoka「" + tmptext + "」";
                 textcount++;
                 yield return new WaitForSeconds(secondtime);
 
             }
+            if (remark[i]==true)
+            {
+                //ここにコメント欄にも同じコメントが流れるようなコードを描く
+            }
             i += 1;
+        }
+        else
+        {
+            //初期化
+            Subtitle.text = "";
+            //背景色変更
+            Panel.GetComponent<Image>().color = new Color(225f / 255f, 225f / 255f, 225f / 255f, 0f / 255f);
         }
         active = true;
 
+    }
+    /// <summary>
+    /// 文字が全角なら true を、半角なら false を返します
+    /// </summary>
+    public static bool IsChar2Byte(char c)
+    {
+        return !((c >= 0x0 && c < 0x81) || (c == 0xf8f0) || (c >= 0xff61 && c < 0xffa0) || (c >= 0xf8f1 && c < 0xf8f4));
     }
 }
