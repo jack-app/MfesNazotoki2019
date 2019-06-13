@@ -22,6 +22,7 @@ public class SubtitleReference : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Panel.SetActive(true);
         Subtitle.text = "";
     }
 
@@ -88,6 +89,7 @@ public class SubtitleReference : MonoBehaviour
             Subtitle.text = "";
             //背景色変更
             Panel.GetComponent<Image>().color = new Color(225f / 255f, 225f / 255f, 225f / 255f, 0f / 255f);
+            Panel.SetActive(false);
         }
         active = true;
 

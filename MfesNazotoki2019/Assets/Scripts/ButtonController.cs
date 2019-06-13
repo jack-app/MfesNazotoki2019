@@ -60,6 +60,7 @@ public class ButtonController : MonoBehaviour
 
 
             prefab.transform.Find("Text").GetComponent<Text>().text = inputText;
+            GameMaster.answer = true;
         }
         
     }
