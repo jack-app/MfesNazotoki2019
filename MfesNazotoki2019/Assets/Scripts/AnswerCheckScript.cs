@@ -43,9 +43,16 @@ public class AnswerCheckScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int questionNumber = 1;
+
+    }
+
+    public void OnClick()
+    {
+        int questionNumber = GameMaster.flag;
+        answer = ButtonController.inputText;
         int c = Check(questionNumber, answer);
         Debug.Log(c);
+        GameMaster.answer = c;
     }
 
 

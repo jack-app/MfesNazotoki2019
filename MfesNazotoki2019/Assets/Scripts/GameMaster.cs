@@ -5,9 +5,14 @@ using UnityEngine;
 public class GameMaster : MonoBehaviour
 {
     //ゲーム進行用フラグ
-    private int flag = 0;
+    static public int flag = 0;
     public GameObject[] Text;
-    static public bool answer =false;
+    //正誤判定フラグ
+    static public int answer = 0;
+    //画面張るやつ
+    public GameObject Cube;
+    //Sceneの画面遷移
+    public Material[] Scene;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,35 +22,63 @@ public class GameMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(answer == true)
+        if(answer == 1)
         {
             GameManager();
-            answer = false;
+            answer = 0;
         }
 
     }
 
     void GameManager()
     {
-        switch (flag)
+        if (flag<Text.Length)
         {
-            case (0):
-                Text[flag].SetActive(false);
-                Text[flag + 1].SetActive(true);
-                break;
-            case (1):
-                Text[flag].SetActive(false);
-                Text[flag + 1].SetActive(true);
-                break;
-            case (2):
-                Text[flag].SetActive(false);
-                Text[flag + 1].SetActive(true);
-                break;
-            case (3):
-                Text[flag].SetActive(false);
-                Text[flag + 1].SetActive(true);
-                break;
+            switch (flag)
+            {
+                case (0):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    break;
+                case (1):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
+                    break;
+                case (2):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
+                    break;
+                case (3):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    break;
+                case (4):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
+                    break;
+                case (5):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    break;
+                case (6):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    break;
+                case (7):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
+                    break;
+                case (8):
+                    Text[flag].SetActive(false);
+                    //Text[flag + 1].SetActive(true);
+                    break;
+            }
+            flag += 1;
         }
-        flag += 1;
+
     }
 }

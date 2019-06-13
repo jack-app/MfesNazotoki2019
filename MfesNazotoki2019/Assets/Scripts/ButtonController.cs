@@ -11,6 +11,8 @@ public class ButtonController : MonoBehaviour
     Transform parentTransform;
     public GameObject RoomNode;
     public GameObject Content;
+    //入力したテキスト
+    static public string inputText;
 
 
     // Start is called before the first frame update
@@ -45,7 +47,7 @@ public class ButtonController : MonoBehaviour
         InputManager = inputField.GetComponent<InputManager>();
         InputManager.InputLogger();
 
-        string inputText = InputManager.inputValue;
+        inputText = InputManager.inputValue;
         //Debug.Log(inputText);
 
 
@@ -60,7 +62,6 @@ public class ButtonController : MonoBehaviour
 
 
             prefab.transform.Find("Text").GetComponent<Text>().text = inputText;
-            GameMaster.answer = true;
         }
         
     }

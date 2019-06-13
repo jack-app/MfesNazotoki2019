@@ -5,10 +5,17 @@ using UnityEngine.UI;
 
 public class SubtitleReference : MonoBehaviour
 {
+    //回答しないテキスト用
+    public bool noanswer;
+
     //表示部分
     public Text Subtitle;
     //表示背景
     public GameObject Panel;
+    //コメント
+    public GameObject RoomNode;
+    //コメント貼るやつ
+    public GameObject Content;
     //表示フレーム
     public float secondtime;
     //登場人物
@@ -24,6 +31,11 @@ public class SubtitleReference : MonoBehaviour
     {
         Panel.SetActive(true);
         Subtitle.text = "";
+        if (active == true)
+        {
+            active = false;
+            StartCoroutine("SubtitleMove");
+        }
     }
 
     // Update is called once per frame
@@ -49,7 +61,7 @@ public class SubtitleReference : MonoBehaviour
             //初期化
             Subtitle.text = "";
             //背景色変更
-            Panel.GetComponent<Image>().color = new Color(225f / 255f, 225f / 255f, 225f / 255f, 128f / 255f);
+            Panel.GetComponent<Image>().color = new Color(225f / 255f, 225f / 255f, 225f / 255f, 200f / 255f);
             //現在表示している文字数+1
             int textcount = 0;
             //文字のバイト数を確認する
@@ -80,6 +92,12 @@ public class SubtitleReference : MonoBehaviour
             if (remark[i]==true)
             {
                 //ここにコメント欄にも同じコメントが流れるようなコードを描く
+                GameObject prefab = Instantiate(RoomNode);
+                prefab.transform.parent = Content.transform;
+
+                //RoomNodeのサイズ調整
+                prefab.GetComponent<RectTransform>().localScale = new Vector3((float)1.3, (float)1.3, 1);
+                prefab.transform.Find("Text").GetComponent<Text>().text = tmptext;
             }
             i += 1;
         }
@@ -90,6 +108,10 @@ public class SubtitleReference : MonoBehaviour
             //背景色変更
             Panel.GetComponent<Image>().color = new Color(225f / 255f, 225f / 255f, 225f / 255f, 0f / 255f);
             Panel.SetActive(false);
+            if (noanswer == true)
+            {
+                GameMaster.answer = 1;
+            }
         }
         active = true;
 
