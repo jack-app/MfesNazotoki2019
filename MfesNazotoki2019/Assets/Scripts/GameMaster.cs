@@ -43,7 +43,6 @@ public class GameMaster : MonoBehaviour
                 case (1):
                     Text[flag].SetActive(false);
                     Text[flag + 1].SetActive(true);
-                    Cube.GetComponent<Renderer>().material = Scene[flag];
                     break;
                 case (2):
                     Text[flag].SetActive(false);
@@ -53,26 +52,51 @@ public class GameMaster : MonoBehaviour
                 case (3):
                     Text[flag].SetActive(false);
                     Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
                     break;
                 case (4):
                     Text[flag].SetActive(false);
                     Text[flag + 1].SetActive(true);
-                    Cube.GetComponent<Renderer>().material = Scene[flag];
                     break;
                 case (5):
                     Text[flag].SetActive(false);
                     Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
                     break;
                 case (6):
                     Text[flag].SetActive(false);
                     Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
                     break;
                 case (7):
                     Text[flag].SetActive(false);
                     Text[flag + 1].SetActive(true);
-                    Cube.GetComponent<Renderer>().material = Scene[flag];
                     break;
                 case (8):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
+                    break;
+                case (9):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    break;
+                case (10):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
+                    break;
+                case (11):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
+                    break;
+                case (12):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
+                    break;
+                case (13):
                     Text[flag].SetActive(false);
                     //Text[flag + 1].SetActive(true);
                     break;

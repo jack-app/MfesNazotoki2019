@@ -51,7 +51,6 @@ public class AnswerCheckScript : MonoBehaviour
         int questionNumber = GameMaster.flag;
         answer = ButtonController.inputText;
         int c = Check(questionNumber, answer);
-        Debug.Log(c);
         GameMaster.answer = c;
     }
 
