@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ButtonController : MonoBehaviour
 {
@@ -100,4 +101,15 @@ public class ButtonController : MonoBehaviour
         }
         
     }
+
+    public void OnClinckTitle()
+    {
+        SceneManager.LoadScene("Main");
+    }
+
+    public void OnClickCredit()
+    {
+        SceneManager.LoadScene("Title");
+    }
+
 }
