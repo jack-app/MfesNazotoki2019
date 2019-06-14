@@ -43,8 +43,17 @@ public class AnswerCheckScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-    }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            if (SubtitleReference.active == true)
+            {
+                int questionNumber = GameMaster.flag;
+                answer = ButtonController.inputText;
+                int c = Check(questionNumber, answer);
+                GameMaster.answer = c;
+            }
+        }
+     }
 
     public void OnClick()
     {

@@ -28,7 +28,42 @@ public class ButtonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Return))
+        {
+            if (SubtitleReference.active ==true)
+            {
+                //Scroll Viewのサイズの取得
+                RectTransform rectTransform = scrollView.GetComponent<RectTransform>();
+                //Debug.Log(rectTransform.rect.width);
+                //Debug.Log(rectTransform.rect.height);
+                float width = rectTransform.rect.width;
+                float height = rectTransform.rect.height;
+                //Debug.Log(width);
+                //Debug.Log(height);
 
+
+                //入力内容の取得
+                InputManager = inputField.GetComponent<InputManager>();
+                InputManager.InputLogger();
+
+                inputText = InputManager.inputValue;
+                //Debug.Log(inputText);
+
+
+                //コメントが入力されていたら表示
+                if (inputText != "")
+                {
+                    GameObject prefab = Instantiate(RoomNode);
+                    prefab.transform.parent = Content.transform;
+
+                    //RoomNodeのサイズ調整
+                    prefab.GetComponent<RectTransform>().localScale = new Vector3((float)1.3, (float)1.3, 1);
+
+
+                    prefab.transform.Find("Text").GetComponent<Text>().text = inputText;
+                }
+            }
+        }
     }
 
     public void OnClick()

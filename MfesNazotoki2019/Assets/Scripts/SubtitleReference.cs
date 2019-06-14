@@ -27,7 +27,7 @@ public class SubtitleReference : MonoBehaviour
     //文章の順番カウント用
     private int i = 0;
     //コルーチンのオンオフ判定用
-    private bool active = true;
+    static public bool active = true;
     // Start is called before the first frame update
     void Start()
     {
