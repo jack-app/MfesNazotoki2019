@@ -7,6 +7,8 @@ public class SubtitleReference : MonoBehaviour
 {
     //回答しないテキスト用
     public bool noanswer;
+    //RepeatText用
+    public bool repeatquiz;
 
     //表示部分
     public Text Subtitle;
@@ -111,6 +113,11 @@ public class SubtitleReference : MonoBehaviour
             if (noanswer == true)
             {
                 GameMaster.answer = 1;
+                noanswer = false;
+            }
+            if(repeatquiz == true)
+            {
+                gameObject.SetActive(false);
             }
         }
         active = true;

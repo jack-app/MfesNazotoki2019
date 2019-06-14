@@ -63,6 +63,19 @@ public class AnswerCheckScript : MonoBehaviour
         {
             return -1;
         }
+        if (Regex.Match(answer, "分からない").Success)
+        {
+            return -1;
+        }
+        //もう一度と聞かれたら-2を返す
+        if (Regex.Match(answer, "もういちど").Success)
+        {
+            return -2;
+        }
+        if (Regex.Match(answer, "もう一度").Success)
+        {
+            return -2;
+        }
         //correctAnswerList[questionNumber] = "a";
         for (int i = 0;i < correctAnswerList[questionNumber].List.Count; i++)
         {

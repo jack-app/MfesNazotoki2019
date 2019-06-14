@@ -7,6 +7,7 @@ public class GameMaster : MonoBehaviour
     //ゲーム進行用フラグ
     static public int flag = 0;
     public GameObject[] Text;
+    public GameObject[] Repeat;
     //正誤判定フラグ
     static public int answer = 0;
     //画面張るやつ
@@ -25,6 +26,11 @@ public class GameMaster : MonoBehaviour
         if(answer == 1)
         {
             GameManager();
+            answer = 0;
+        }
+        if (answer == -2)
+        {
+            RepeatQuiz();
             answer = 0;
         }
 
@@ -104,5 +110,23 @@ public class GameMaster : MonoBehaviour
             flag += 1;
         }
 
+    }
+    void RepeatQuiz()
+    {
+        switch (flag)
+        {
+            case (1):
+                Repeat[flag].SetActive(true);
+                break;
+            case (4):
+                Repeat[flag].SetActive(true);
+                break;
+            case (7):
+                Repeat[flag].SetActive(true);
+                break;
+            case (9):
+                Repeat[flag].SetActive(true);
+                break;
+        }
     }
 }

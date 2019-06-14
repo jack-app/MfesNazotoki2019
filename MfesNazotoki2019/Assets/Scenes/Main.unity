@@ -140,7 +140,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &310719
@@ -156,12 +156,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 1
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00
   text:
   - "\u300C\u30DB\u30C3\u30C8\u30C9\u30C3\u30B0  \u3001\u305D\u3046\u3044\u3048\u3070\u90E8\u5C4B\u306E\u9685\u306B\u78BA\u304B\u305D\u306E\u306C\u3044\u3050\u308B\u307F\u304C\u3042\u308A\u307E\u3057\u305F\uFF01\uFF01\u300D"
@@ -514,7 +515,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &136711501
@@ -530,17 +531,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 1
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 000100
   text:
   - "\u753B\u9762\u306B\u4E00\u77AC\u306E\u30CE\u30A4\u30BA\u304C\u8D70\u3063\u305F\u5F8C\u3001Sound
     Only \u306E\u6587\u5B57\u304C\u6D88\u3048\u3001\u4EE3\u308F\u308A\u306B\u9BAE\u660E\u306A\u6620\u50CF\u304C\u6620\u3057\u51FA\u3055\u308C\u308B\u3002\u5947\u5999\u306A\u7269\u304C\u3042\u3061\u3089\u3053\u3061\u3089\u306B\u914D\u7F6E\u3055\u308C\u305F\u3001\u5B63\u7BC0\u5916\u308C\u306E\u30AF\u30EA\u30B9\u30DE\u30B9\u306E\u69D8\u306A\u90E8\u5C4B\u306F\u660E\u3089\u304B\u306B\u300E\u7570\u5E38\u300F\u3067\u3042\u3063\u305F\u3002"
-  - "\u300E......\u306A\u304B\u306A\u304B\u306B\u307F\u3087\u3046\u3061\u304F\u308A\u3093\u306A\u90E8\u306A\u304B\u306A\u304B\u306B\u307F\u3087\u3046\u3061\u304F\u308A\u3093\u306A\u90E8\u5C4B\u3067\u3059\u306D\u300F"
+  - "\u300E......\u306A\u304B\u306A\u304B\u306B\u307F\u3087\u3046\u3061\u304F\u308A\u3093\u306A\u90E8\u5C4B\u3067\u3059\u306D\u300F"
   - "\u300C\u6B63\u76F4\u3001\u6C17\u304C\u6EC5\u5165\u308A\u305D\u3046\u306A\u306E\u3067\u3059
     \ \u3002\u3042\u3068\u3001\u7BB1\u306E\u4E2D\u306B\u3053\u306E\u69D8\u306A\u7269\u304C\u5165\u3063\u3066\u3044\u307E\u3057\u305F\uFF01\u300D"
 --- !u!1 &169238094
@@ -1037,11 +1039,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329390262}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &329390264
@@ -1057,12 +1059,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 1
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00000000000100000000010000010000
   text:
   - "\u305D\u306E\u751F\u653E\u9001\u3092\u898B\u305F\u306E\u306F\u3001\u672C\u5F53\u306B\u5076\u7136\u3060\u3063\u305F\u3002"
@@ -1085,6 +1088,145 @@ MonoBehaviour:
   - "\u300E\u306A\u306B\u304B\u9375\u306E\u6570\u5B57\u306B\u5FC3\u3042\u305F\u308A\u306F\u3042\u308A\u307E\u3059\u304B\uFF1F\u300F"
   - "\u300C\u7BB1\u306E\u6A2A\u306B\u3001\u4E00\u679A\u306E\u5C01\u7B52\u304C\u30C6\u30FC\u30D7\u3067\u304F\u3063\u3064\u3044\u3066\u3044\u3066\u3001\u4E2D\u3092\u898B\u308B\u3068\u3088\u304F\u5206\u304B\u3089\u306A\u3044\u6697\u53F7\uFF1F\u306E\u3088\u3046\u306A\u7269\u304C\u3042\u308A\u307E\u3059\u3002\u3048\u3063\u3068......"
   - "\u4F55\u304B\u539F\u7A3F\u7528\u7D19\u3088\u308A\u306F\u5927\u304D\u3044\u30DE\u30B9\u76EE\u304C\u66F8\u3044\u3066\u3042\u308B\u7D19\u306B\u3001\u554F1\u3068\u7D75\u304C\u63CF\u3044\u3066\u3042\u308A\u307E\u3059\uFF01\u3000\u5B50\u4F9B\u9054\u306E\u30A4\u30E9\u30B9\u30C8\u3068\u6D77\u306E\u30A4\u30E9\u30B9\u30C8\u304C\u5DE6\u53F3\u306B\u63CF\u3044\u3066\u3042\u3063\u3066\u3001\u9593\u306B\uFF0B\u306E\u30DE\u30FC\u30AF\u304C\u66F8\u3044\u3066\u3042\u3063\u3066...\u3002\u300D..."
+--- !u!1 &354423702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 354423703}
+  - component: {fileID: 354423705}
+  - component: {fileID: 354423704}
+  m_Layer: 5
+  m_Name: EnterText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &354423703
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354423702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 626749753}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 297, y: -49}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &354423704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354423702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 80
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: "Enter\u3067\u6B21\u3078\u9032\u3080"
+--- !u!222 &354423705
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354423702}
+  m_CullTransparentMesh: 0
+--- !u!1 &359718193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 359718194}
+  - component: {fileID: 359718195}
+  m_Layer: 0
+  m_Name: RepeatText7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &359718194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359718193}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1052843975}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &359718195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359718193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74222d87d3e100747a5ce101067ea169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noanswer: 0
+  repeatquiz: 1
+  Subtitle: {fileID: 1818056804}
+  Panel: {fileID: 626749752}
+  RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
+    type: 3}
+  Content: {fileID: 2114306430}
+  secondtime: 0.1
+  remark: 000000000000
+  text:
+  - "\u30D0\u30EA\u30D0\u30EA\u3068\u3044\u3046\u8033\u969C \u308A\u306A\u97F3\u3068\u5171\u306B\u30BD\u30FC
+    \ \u30BB\u30FC\u30B8\u304C\u5916\u308C\u308B\u3002\u305D\u306E\u52E2\u3044\u306E\u307E\u307E\u306B\u4E2D\u304B\u3089\u7D19\u304C\u98DB\u3073\u51FA\u3057\u3001\u3072\u3089\u308A\u3068\u821E\u3044\u964D\u308A\u305F\u3002"
+  - "\u300C\u306F\u3041......  \u3001\u3082\u3046\u3044\u3044\u52A0\u6E1B\u306B\u3057\u3066\u6B32\u3057\u3044\u3067\u3059
+    \ \u3002\u300D"
+  - "\u4F55\u5EA6\u3082  \u540C\u3058\u4E8B  \u304C\u8D77\u304D\u305F\u304B\u3089\u304B\u3001\u58F0\u304B\u3089\u75B2\u308C\u304C\u306B
+    \ \u3058\u307F\u51FA\u3066\u3044\u305F\u3002\u30D6\u30C4 \u30AF\u30B5\u3068  \u6068\u307F\u7BC0\u3092
+    \ \u5531\u3048\u306A\u304C\u3089\u3082\u3001\u307E\u305F\u30AB\u30E1\u30E9\u306B\u65B0\u3057\u3044\u554F\u304C\u6620\u3057\u51FA\u3055\u308C\u305F\u3002"
 --- !u!1 &439730713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,7 +1605,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &518218949
@@ -1479,12 +1621,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 0
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00
   text:
   - "\u305D\u3046\u8A00\u3063\u3066\u3001\u753B\u9762\u306B\u6620\u3057\u51FA\u3055\u308C\u305F\u306E\u306F\u3001\u307E\u305F\u65B0\u3057\u3044\u6697\u53F7\u306E\u3088\u3046\u306A\u7269\u3060\u3063\u305F\u3002"
@@ -1607,6 +1750,17 @@ MonoBehaviour:
   - {fileID: 1606582994}
   - {fileID: 811483350}
   - {fileID: 1158940921}
+  Repeat:
+  - {fileID: 0}
+  - {fileID: 719320533}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1989317390}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 359718193}
+  - {fileID: 0}
+  - {fileID: 2056973766}
   Cube: {fileID: 827118297}
   Scene:
   - {fileID: 2100000, guid: 082cb6790c687bd45aefc578f514397c, type: 2}
@@ -1644,7 +1798,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544513034}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f5391eb1d0e3384abb13d7a6d7c27c7, type: 3}
   m_Name: 
@@ -1830,7 +1984,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.49999997, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 354423703}
   m_Father: {fileID: 288821610}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1876,6 +2031,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626749752}
   m_CullTransparentMesh: 0
+--- !u!1 &719320533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 719320535}
+  - component: {fileID: 719320534}
+  m_Layer: 0
+  m_Name: RepeatText1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &719320534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719320533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74222d87d3e100747a5ce101067ea169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noanswer: 0
+  repeatquiz: 1
+  Subtitle: {fileID: 1818056804}
+  Panel: {fileID: 626749752}
+  RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
+    type: 3}
+  Content: {fileID: 2114306430}
+  secondtime: 0.1
+  remark: 000000000000
+  text:
+  - "\u300E\u90E8\u5C4B\u306E\u4E2D\u306B\u7279\u5FB4\u7684\u306A\u7269\u3068\u304B\u306F\u3042\u308A\u307E\u3059\u304B\uFF1F\u300F"
+  - "\u300C\u90E8\u5C4B\u306E\u58C1\u306B\u914D\u4FE1\u753B\u9762\u304C\u5927\u304D\u304F\u5199\u3063\u3066\u3044\u308B\u306E\u3068\u3001\u3042\u304B\u3089\u3055\u307E\u306B\u4E2D\u5FC3\u306B\u5B9D\u7BB1\u306E\u3088\u3046\u306A\u3082\u306E\u304C\u3042\u308A\u307E\u3059\uFF01"
+  - "\u3067\u3082\u3001\u56DB\u6841\u306E\u6570\u5B57\u3092\u5165\u308C\u3066\u958B\u3051\u308B\u30BF\u30A4\u30D7\u306E\u9375\u304C\u3064\u3044\u3066\u3044\u3066\u958B\u3051\u3089\u308C\u306A\u3044
+    \ \u3002\u300D"
+  - "\u300E\u306A\u306B\u304B\u9375\u306E\u6570\u5B57\u306B\u5FC3\u3042\u305F\u308A\u306F\u3042\u308A\u307E\u3059\u304B\uFF1F\u300F"
+  - "\u300C\u7BB1\u306E\u6A2A\u306B\u3001\u4E00\u679A\u306E\u5C01\u7B52\u304C\u30C6\u30FC\u30D7\u3067\u304F\u3063\u3064\u3044\u3066\u3044\u3066\u3001\u4E2D\u3092\u898B\u308B\u3068\u3088\u304F\u5206\u304B\u3089\u306A\u3044\u6697\u53F7\uFF1F\u306E\u3088\u3046\u306A\u7269\u304C\u3042\u308A\u307E\u3059\u3002\u3048\u3063\u3068......"
+  - "\u4F55\u304B\u539F\u7A3F\u7528\u7D19\u3088\u308A\u306F\u5927\u304D\u3044\u30DE\u30B9\u76EE\u304C\u66F8\u3044\u3066\u3042\u308B\u7D19\u306B\u3001\u554F1\u3068\u7D75\u304C\u63CF\u3044\u3066\u3042\u308A\u307E\u3059\uFF01\u3000\u5B50\u4F9B\u9054\u306E\u30A4\u30E9\u30B9\u30C8\u3068\u6D77\u306E\u30A4\u30E9\u30B9\u30C8\u304C\u5DE6\u53F3\u306B\u63CF\u3044\u3066\u3042\u3063\u3066\u3001\u9593\u306B\uFF0B\u306E\u30DE\u30FC\u30AF\u304C\u66F8\u3044\u3066\u3042\u3063\u3066...\u3002\u300D"
+--- !u!4 &719320535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719320533}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1052843975}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &730405514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,7 +2119,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &730405516
@@ -1920,12 +2135,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 1
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00000100
   text:
   - "\u300C\u305F\u3060\u306E\u306C\u3044\u3050\u308B\u307F\u3067\u3059\u306D\u3002\u7279\u306B\u5909\u306A\u3068\u3053\u308D\u306F\u306A\u3044\u3067\u3059\u304C
@@ -2072,7 +2288,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &749596734
@@ -2088,12 +2304,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 1
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00
   text:
   - "\u300C\u3044\u3061\u3054\u3001\u3063\u3066\u3053\u3068\u306F\u3042\u306E\u58C1\u306B\u304B\u3051\u3089\u308C\u3066\u3044\u308B\u6642\u8A08\u3067\u3059\u306D\uFF01\u300D"
@@ -2125,7 +2342,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &751658569
@@ -2141,12 +2358,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 0
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 000000
   text:
   - "\u30D0\u30EA\u30D0\u30EA\u3068\u3044\u3046\u8033\u969C \u308A\u306A\u97F3\u3068\u5171\u306B\u30BD\u30FC
@@ -2301,7 +2519,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &811483352
@@ -2317,12 +2535,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 1
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00
   text:
   - "\u9375  \u3063\u3066\u3053\u308C\u306F\u307E\u3055\u304B\u3042\u306E\u6249\u306E\uFF01\uFF01\u300D."
@@ -2687,7 +2906,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &909253017
@@ -2703,12 +2922,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 0
+  repeatquiz: 0
   Subtitle: {fileID: 1870065489}
   Panel: {fileID: 1328018113}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00
   text:
   - "Tips\u3000\u3053\u306E\u8B0E\u89E3\u304D\u306F\u3001\u30B3\u30E1\u30F3\u30C8\u6B04\u306B\u7B54\u3048\u3092\u5165\u529B\u3059\u308B\u3053\u3068\u306B\u3088\u308A\u3001\u30B9\u30C8\u30FC\u30EA\u30FC\u304C\u9032\u3093\u3067\u3044\u304D\u307E\u3059\u3002\u554F\u984C\u3092\u3082\u3046\u4E00\u5EA6\u805E\u304D\u305F\u3044\u5834\u5408\u306F\u3001\u300E\u3082\u3046\u4E00\u5EA6\u300F\u3068\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002\u307E\u305F\u3001\u5206\u304B\u3089\u306A\u3044\u5834\u5408\u3084\u3001\u8FF7\u3063\u3066\u3057\u307E\u3063\u305F\u5834\u5408\u306F\u3001\u300E\u5206\u304B\u3089\u306A\u3044\u300F\u3068\u5165\u529B\u3059\u308B\u3068\u3001\u3069\u3053\u304B
@@ -2960,9 +3180,43 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 0.98}
-  m_AnchoredPosition: {x: -32.250427, y: -150.7}
+  m_AnchoredPosition: {x: -32.25049, y: -150.7}
   m_SizeDelta: {x: -770, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1052843974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1052843975}
+  m_Layer: 0
+  m_Name: RepeatText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1052843975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052843974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 719320535}
+  - {fileID: 1989317391}
+  - {fileID: 359718194}
+  - {fileID: 2056973768}
+  m_Father: {fileID: 2009639747}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120772468
 GameObject:
   m_ObjectHideFlags: 0
@@ -3139,7 +3393,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1158940923
@@ -3155,12 +3409,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 0
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00000000000001
   text:
   - "\u30D3\u30C7\u30AA\u30AB\u30E1\u30E9\u3092\u5E8A\u306B\u653E\u7F6E\u3057\u305F\u307E\u307E\u3001\u9375\u3092\u63B4\u307F\u3001\u5373\u5EA7\u306B\u6249\u3078\u5411\u304B\u3063\u3066\u3044\u304F\u3002\u5DEE\u3057\u8FBC\u3093\u3060\u9375\u306F\u3001\u62B5\u6297\u306A\u304F\u30AB\u30C1\u30E3\u30EA\u3068\u56DE\u308A\u3001\u30AD\u30A3\u3068\u97F3\u3092\u7ACB\u3066\u306A\u304C\u3089\u958B\u3044\u3066\u3044\u304F\u3002"
@@ -3198,7 +3453,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1192100005
@@ -3214,12 +3469,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 1
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 0000000100
   text:
   - "\u300C1.....2.....2.....0.....\u3042\u3001\u958B\u304D\u307E\u3057\u305F\uFF01\u300D"
@@ -3419,7 +3675,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1317458111
@@ -3435,12 +3691,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 0
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00000000
   text:
   - "\u304B\u3061\u3083\u304B\u3061\u3083\u3068\u3042\u3061\u3089\u3053\u3061\u3089\u3092\u3044\u3058\u304F\u308A\u56DE\u3059\u3002"
@@ -3708,6 +3965,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428519444}
   m_CullTransparentMesh: 0
+--- !u!1 &1440485346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1440485347}
+  m_Layer: 0
+  m_Name: MainText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1440485347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440485346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 329390263}
+  - {fileID: 909253016}
+  - {fileID: 1192100004}
+  - {fileID: 136711500}
+  - {fileID: 518218948}
+  - {fileID: 310718}
+  - {fileID: 730405515}
+  - {fileID: 751658568}
+  - {fileID: 749596733}
+  - {fileID: 1317458110}
+  - {fileID: 1695530133}
+  - {fileID: 1606582995}
+  - {fileID: 811483351}
+  - {fileID: 1158940922}
+  m_Father: {fileID: 2009639747}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1483628367
 GameObject:
   m_ObjectHideFlags: 0
@@ -4128,7 +4429,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1606582996
@@ -4144,12 +4445,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 1
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00000100000000
   text:
   - "\u300C\u3053\u308C\u306E\u3069\u3053\u304B\u306B\u6B21\u306E\u8B0E\u304C\u3042\u308B\u306E\u3067\u3059\u304B\u306D
@@ -4188,7 +4490,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2009639747}
+  m_Father: {fileID: 1440485347}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1695530134
@@ -4204,12 +4506,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noanswer: 1
+  repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
   RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
     type: 3}
   Content: {fileID: 2114306430}
-  secondtime: 0
+  secondtime: 0.1
   remark: 00
   text:
   - "\u300C1225......\u30AF\u30EA\u30B9\u30DE\u30B9  \u3082\u3046\u3001\u3053\u308C\u3057\u304B\u306A\u3044\u3067\u3059\u3088\u306D\uFF1F\u300D"
@@ -5357,6 +5660,65 @@ MonoBehaviour:
   - List:
     - dggsjgysugyi
   answer: 0
+--- !u!1 &1989317390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1989317391}
+  - component: {fileID: 1989317392}
+  m_Layer: 0
+  m_Name: RepeatText4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1989317391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989317390}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1052843975}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1989317392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989317390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74222d87d3e100747a5ce101067ea169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noanswer: 0
+  repeatquiz: 1
+  Subtitle: {fileID: 1818056804}
+  Panel: {fileID: 626749752}
+  RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
+    type: 3}
+  Content: {fileID: 2114306430}
+  secondtime: 0.1
+  remark: 000000000000
+  text:
+  - "\u753B\u9762\u306B\u4E00\u77AC\u306E\u30CE\u30A4\u30BA\u304C\u8D70\u3063\u305F\u5F8C\u3001Sound
+    Only \u306E\u6587\u5B57\u304C\u6D88\u3048\u3001\u4EE3\u308F\u308A\u306B\u9BAE\u660E\u306A\u6620\u50CF\u304C\u6620\u3057\u51FA\u3055\u308C\u308B\u3002\u5947\u5999\u306A\u7269\u304C\u3042\u3061\u3089\u3053\u3061\u3089\u306B\u914D\u7F6E\u3055\u308C\u305F\u3001\u5B63\u7BC0\u5916\u308C\u306E\u30AF\u30EA\u30B9\u30DE\u30B9\u306E\u69D8\u306A\u90E8\u5C4B\u306F\u660E\u3089\u304B\u306B\u300E\u7570\u5E38\u300F\u3067\u3042\u3063\u305F\u3002"
+  - "\u300E......\u306A\u304B\u306A\u304B\u306B\u307F\u3087\u3046\u3061\u304F\u308A\u3093\u306A\u90E8\u5C4B\u3067\u3059\u306D\u300F"
+  - "\u300C\u6B63\u76F4\u3001\u6C17\u304C\u6EC5\u5165\u308A\u305D\u3046\u306A\u306E\u3067\u3059
+    \ \u3002\u3042\u3068\u3001\u7BB1\u306E\u4E2D\u306B\u3053\u306E\u69D8\u306A\u7269\u304C\u5165\u3063\u3066\u3044\u307E\u3057\u305F\uFF01\u300D"
+  - "\u305D\u3046\u8A00\u3063\u3066\u3001\u753B\u9762\u306B\u6620\u3057\u51FA\u3055\u308C\u305F\u306E\u306F\u3001\u307E\u305F\u65B0\u3057\u3044\u6697\u53F7\u306E\u3088\u3046\u306A\u7269\u3060\u3063\u305F\u3002"
 --- !u!1 &2009639745
 GameObject:
   m_ObjectHideFlags: 0
@@ -5384,22 +5746,70 @@ Transform:
   m_LocalPosition: {x: 386.5688, y: 90.88127, z: 0.99645996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 329390263}
-  - {fileID: 909253016}
-  - {fileID: 1192100004}
-  - {fileID: 136711500}
-  - {fileID: 518218948}
-  - {fileID: 310718}
-  - {fileID: 730405515}
-  - {fileID: 751658568}
-  - {fileID: 749596733}
-  - {fileID: 1317458110}
-  - {fileID: 1695530133}
-  - {fileID: 1606582995}
-  - {fileID: 811483351}
-  - {fileID: 1158940922}
+  - {fileID: 1440485347}
+  - {fileID: 1052843975}
   m_Father: {fileID: 0}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2056973766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2056973768}
+  - component: {fileID: 2056973767}
+  m_Layer: 0
+  m_Name: RepeatText9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2056973767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056973766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74222d87d3e100747a5ce101067ea169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noanswer: 0
+  repeatquiz: 1
+  Subtitle: {fileID: 1818056804}
+  Panel: {fileID: 626749752}
+  RoomNode: {fileID: 3719162733666555576, guid: b7b17753aefaa4200a34458054920bc8,
+    type: 3}
+  Content: {fileID: 2114306430}
+  secondtime: 0.1
+  remark: 000000000000
+  text:
+  - "\u300E\u90E8\u5C4B\u306E\u4E2D\u306B\u7279\u5FB4\u7684\u306A\u7269\u3068\u304B\u306F\u3042\u308A\u307E\u3059\u304B\uFF1F\u300F"
+  - "\u300C\u90E8\u5C4B\u306E\u58C1\u306B\u914D\u4FE1\u753B\u9762\u304C\u5927\u304D\u304F\u5199\u3063\u3066\u3044\u308B\u306E\u3068\u3001\u3042\u304B\u3089\u3055\u307E\u306B\u4E2D\u5FC3\u306B\u5B9D\u7BB1\u306E\u3088\u3046\u306A\u3082\u306E\u304C\u3042\u308A\u307E\u3059\uFF01"
+  - "\u3067\u3082\u3001\u56DB\u6841\u306E\u6570\u5B57\u3092\u5165\u308C\u3066\u958B\u3051\u308B\u30BF\u30A4\u30D7\u306E\u9375\u304C\u3064\u3044\u3066\u3044\u3066\u958B\u3051\u3089\u308C\u306A\u3044
+    \ \u3002\u300D"
+  - "\u300E\u306A\u306B\u304B\u9375\u306E\u6570\u5B57\u306B\u5FC3\u3042\u305F\u308A\u306F\u3042\u308A\u307E\u3059\u304B\uFF1F\u300F"
+  - "\u300C\u7BB1\u306E\u6A2A\u306B\u3001\u4E00\u679A\u306E\u5C01\u7B52\u304C\u30C6\u30FC\u30D7\u3067\u304F\u3063\u3064\u3044\u3066\u3044\u3066\u3001\u4E2D\u3092\u898B\u308B\u3068\u3088\u304F\u5206\u304B\u3089\u306A\u3044\u6697\u53F7\uFF1F\u306E\u3088\u3046\u306A\u7269\u304C\u3042\u308A\u307E\u3059\u3002\u3048\u3063\u3068......"
+  - "\u4F55\u304B\u539F\u7A3F\u7528\u7D19\u3088\u308A\u306F\u5927\u304D\u3044\u30DE\u30B9\u76EE\u304C\u66F8\u3044\u3066\u3042\u308B\u7D19\u306B\u3001\u554F1\u3068\u7D75\u304C\u63CF\u3044\u3066\u3042\u308A\u307E\u3059\uFF01\u3000\u5B50\u4F9B\u9054\u306E\u30A4\u30E9\u30B9\u30C8\u3068\u6D77\u306E\u30A4\u30E9\u30B9\u30C8\u304C\u5DE6\u53F3\u306B\u63CF\u3044\u3066\u3042\u3063\u3066\u3001\u9593\u306B\uFF0B\u306E\u30DE\u30FC\u30AF\u304C\u66F8\u3044\u3066\u3042\u3063\u3066...\u3002\u300D"
+--- !u!4 &2056973768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056973766}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1052843975}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2114306430
 GameObject:
