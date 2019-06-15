@@ -8,6 +8,7 @@ public class GameMaster : MonoBehaviour
     static public int flag = 0;
     public GameObject[] Text;
     public GameObject[] Repeat;
+    public GameObject[] Hint;
     //正誤判定フラグ
     static public int answer = 0;
     //画面張るやつ
@@ -32,6 +33,11 @@ public class GameMaster : MonoBehaviour
         {
             RepeatQuiz();
             answer = 0;
+        }
+        //
+        if (answer == -1)
+        {
+            HintQuiz();
         }
 
     }
@@ -126,6 +132,25 @@ public class GameMaster : MonoBehaviour
                 break;
             case (9):
                 Repeat[flag].SetActive(true);
+                break;
+        }
+    }
+    //
+    void HintQuiz()
+    {
+        switch (flag)
+        {
+            case (1):
+                Hint[flag].SetActive(true);
+                break;
+            case (4):
+                Hint[flag].SetActive(true);
+                break;
+            case (7):
+                Hint[flag].SetActive(true);
+                break;
+            case (9):
+                Hint[flag].SetActive(true);
                 break;
         }
     }
