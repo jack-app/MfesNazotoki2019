@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameMaster : MonoBehaviour
 {
@@ -92,6 +93,7 @@ public class GameMaster : MonoBehaviour
                 case (9):
                     Text[flag].SetActive(false);
                     Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
                     break;
                 case (10):
                     Text[flag].SetActive(false);
@@ -110,7 +112,18 @@ public class GameMaster : MonoBehaviour
                     break;
                 case (13):
                     Text[flag].SetActive(false);
-                    //Text[flag + 1].SetActive(true);
+                    Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
+                    break;
+                case (14):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
+                    break;
+                case (15):
+                    Text[flag].SetActive(false);
+                    Text[flag + 1].SetActive(true);
+                    SceneManager.LoadScene("Title");
                     break;
             }
             flag += 1;
