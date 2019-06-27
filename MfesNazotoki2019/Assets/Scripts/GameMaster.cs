@@ -25,6 +25,15 @@ public class GameMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (flag == 14)
+        {
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                answer = 1;
+            }
+
+            
+        }
         if(answer == 1)
         {
             GameManager();
@@ -84,6 +93,7 @@ public class GameMaster : MonoBehaviour
                 case (7):
                     Text[flag].SetActive(false);
                     Text[flag + 1].SetActive(true);
+                    Cube.GetComponent<Renderer>().material = Scene[flag];
                     break;
                 case (8):
                     Text[flag].SetActive(false);
@@ -116,13 +126,9 @@ public class GameMaster : MonoBehaviour
                     Cube.GetComponent<Renderer>().material = Scene[flag];
                     break;
                 case (14):
-                    Text[flag].SetActive(false);
-                    Text[flag + 1].SetActive(true);
                     Cube.GetComponent<Renderer>().material = Scene[flag];
                     break;
                 case (15):
-                    Text[flag].SetActive(false);
-                    Text[flag + 1].SetActive(true);
                     SceneManager.LoadScene("Title");
                     break;
             }

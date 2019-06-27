@@ -1280,7 +1280,7 @@ MonoBehaviour:
   secondtime: 0.1
   remark: 01
   text:
-  - "\u3053\u3053\u306B\u30D2\u30F3\u30C8\u66F8\u304F\u2665"
+  - "31\u30DE\u30B9\u3063\u3066\u3082\u3057\u304B\u3057\u3066\u30AB\u30EC\u30F3\u30C0\u30FC\u3058\u3083\u306A\u3044\u304B\u306A\uFF1F\u6A2A\u3082\u4E03\u30DE\u30B9\u3060\u3057"
 --- !u!114 &360194469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1817,6 +1817,7 @@ MonoBehaviour:
   - {fileID: 1606582994}
   - {fileID: 811483350}
   - {fileID: 1158940921}
+  - {fileID: 1158940921}
   Repeat:
   - {fileID: 0}
   - {fileID: 719320533}
@@ -1848,9 +1849,9 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 082cb6790c687bd45aefc578f514397c, type: 2}
   - {fileID: 2100000, guid: b2cab1126ba1ed14aad3d0480100a587, type: 2}
   - {fileID: 2100000, guid: 08e7ea09e9a0b4164938fc5a3a494a2f, type: 2}
-  - {fileID: 2100000, guid: 082cb6790c687bd45aefc578f514397c, type: 2}
   - {fileID: 2100000, guid: 1d5ed8a5fcc0e7f4e89d03836aacaaee, type: 2}
   - {fileID: 2100000, guid: 8dc68f59cd16d4db4b0b01a2e63c100d, type: 2}
+  - {fileID: 2100000, guid: 32340767ec5727c4c8fe79b1413b5ed5, type: 2}
   - {fileID: 2100000, guid: 32340767ec5727c4c8fe79b1413b5ed5, type: 2}
   - {fileID: 2100000, guid: 87d5112bd5a24455d9327d97620d9934, type: 2}
   - {fileID: 2100000, guid: d82576d5e8bc3431db02d7c96c63eaca, type: 2}
@@ -1878,7 +1879,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544513034}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f5391eb1d0e3384abb13d7a6d7c27c7, type: 3}
   m_Name: 
@@ -3555,7 +3556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74222d87d3e100747a5ce101067ea169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noanswer: 0
+  noanswer: 1
   repeatquiz: 0
   Subtitle: {fileID: 1818056804}
   Panel: {fileID: 626749752}
@@ -4829,7 +4830,7 @@ MonoBehaviour:
   secondtime: 0.1
   remark: 01
   text:
-  - "\u3053\u3053\u306B\u30D2\u30F3\u30C8\u66F8\u304F\u2665"
+  - "\u300EYoutube\u306E\u4E0A\u306B\u56DB\u89D2\u304C\u56DB\u3064 \u4F55\u3092\u4E0A\u306B\u3042\u3052\u308C\u3070\u3044\u3044\u3093\u3060\u308D\u3046\u306D\uFF1F\u305D\u306E\u7D75\u306F\u300F"
 --- !u!114 &1710617817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5968,6 +5969,10 @@ MonoBehaviour:
     - dggsjgysugyi
   - List:
     - 1225
+  - List:
+    - dggsjgysugyi
+  - List:
+    - dggsjgysugyi
   - List:
     - dggsjgysugyi
   - List:
